@@ -1,6 +1,7 @@
 ### 0.4.16 (unreleased)
 
 Features:
+ * Introduce ``pure`` functions. The pureness is not enforced yet, use with care.
  * ABI JSON: Include new field ``statemutability`` with values ``view``, ``nonpayable`` and ``payable``.
  * Parser: Display previous visibility specifier in error if multiple are found.
  * Parser: Introduce ``view`` keyword on functions (``constant`` remains an alias for ``view``).
